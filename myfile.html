@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Laura's Home Page</title>
+	<!-- Bootstrap, CSS, Javascript and Jquery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="myfile.css">
+    <script src="https://code.jquery.com/jquery.js"></script>   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+</head>
+<body>
+	<div class="container">
+		<!-- Header (need a more clever business name) -->
+        <div class="row"> 
+			<div class="col-md-12" id="name">
+			<h1>Laura's Art Glass and Maker Space</h1>
+			</div>
+		</div>
+		<!-- menu options -->
+        <div class="row"> 
+			<div class="col-md-3">
+                <!-- accordion section -->				
+                <div class="panel-group" id="accordion">
+                    <!-- accordion 1 -->    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Stained Glass</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse panel-body collapse">
+                            <div class="panel-body"><a href="#">2-D Window and Wall Art</a></div>
+                            <div class="panel-body"><a href="#">3-D Hanging and Tabletop Art</a></div>
+                        </div>
+                    </div>
+                    <!-- accordion 2 -->    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Fused Glass</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body"><a href="#">Plates, Bowls and Coasters</a></div>
+                            <div class="panel-body"><a href="#">Vases and Candleholders</a></div>
+                        </div>
+                    </div>
+                    <!-- accordion 3  -->    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Dichroic Jewelry</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body"><a href="#">Geometric</a></div>
+                            <div class="panel-body"><a href="#">Nature</a></div>
+                            <div class="panel-body"><a href="#">Textured</a></div>
+                            <div class="panel-body"><a href="#">Judaica</a></div>
+                        </div>
+                    </div>
+                    <!-- accordion 4  -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Judaica</a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body"><a href="#">Seder Plates</a></div>
+                            <div class="panel-body"><a href="#">Hannukias</a></div>
+                            <div class="panel-body"><a href="#">Plates</a></div>
+                            <div class="panel-body"><a href="#">Jewelry</a></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- non accordion section (can add accordion function as needed) -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a href="#">Texas Themed</a></h4>
+                    </div>
+                </div>				
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a href="#">3D Printed!</a></h4>
+                    </div>
+                </div>  
+            </div>
+			<!-- content area -->                
+            <div class="col-md-9">
+			 <img id="defaultPic" src="blue_sectional.jpg">
+			</div>
+		</div>
+	</div>		
+</body>
+</html>

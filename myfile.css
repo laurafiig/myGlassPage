@@ -1,0 +1,22 @@
+/*set background image*/
+body {
+	background-image: url("DSC_0045.JPG"); 
+	width: 100%;
+}
+
+/*header font - need to find nice font*/
+h1 {
+	text-align: center;
+	color: white;
+}
+
+/*header background and spacing*/
+#name {
+	background-image: url("DSC_0027.JPG");
+	margin: 25px 0;
+}
+
+/*temporary picture to be replaced with slideshow?*/
+#defaultPic {
+	width: 100%
+}
