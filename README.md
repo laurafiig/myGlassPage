@@ -8,7 +8,7 @@ possible future plans to add 3d printer or other maker stuff
 
 uses:  HTML5, CSS3, Bootstrap, 
 
-adding javascript and jquery soon, maybe adding firebase
+adding javascript and jquery soon, maybe adding database
 
 actions:
 
@@ -20,12 +20,13 @@ add coming soon graphic
 
 add slideshow for main container start page
 
-add about me and contact info
+add about me and contact info and link to portfolio
 
-look at firebase for image storage
-
-look at adding pricing info to firebase at later date
+look at adding pricing info at later date
 
 can I make use of the EBAY API for listings to show what is available and not for sale
 
 also ETSY API, what else is out there for online sellers
+
+
+ https://ancient-beach-54466.herokuapp.com/
